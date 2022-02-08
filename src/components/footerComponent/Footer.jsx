@@ -22,18 +22,6 @@ const Footer = () => {
               margin: "16px -20px auto",
             }}
           />
-          {/* <h3>
-            About<span> PTU</span>
-          </h3> */}
-
-          {/* <p class="footer-links">
-            <a href="#">Home</a>|<a href="#">Blog</a>|<a href="#">About</a>|
-            <a href="#">Contact</a>
-          </p> */}
-
-          {/* <p class="footer-company-name">
-            © 2021 PTU Learning Technology University.
-          </p> */}
         </div>
 
         <div className="footer-center">
@@ -45,24 +33,6 @@ const Footer = () => {
             allowfullscreen=""
             loading="lazy"
           ></iframe>
-          {/* <div>
-            <i class="fa fa-map-marker"></i>
-            <p>
-              <span>Pillaichavady</span>
-              Puducherry - 605 014.
-            </p>
-          </div> */}
-
-          {/* <div>
-            <i class="fa fa-phone"></i>
-            <p>0413-2655281-288</p>
-          </div> */}
-          {/* <div>
-            <i class="fa fa-envelope"></i>
-            <p>
-              <a href="mailto:info@pec.edu">info@pec.edu</a>
-            </p>
-          </div> */}
         </div>
         <div className="footer-right">
           <p className="footer-company-about">
