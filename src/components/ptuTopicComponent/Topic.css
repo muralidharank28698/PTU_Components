@@ -1,0 +1,114 @@
+.image_gallery {
+  width: 100%;
+  height: 100%;
+  min-height: 70vh;
+  box-shadow: 2px 1px 42px 39px rgba(255, 255, 255, 0.75) inset;
+  -webkit-box-shadow: 2px 1px 42px 39px rgba(255, 255, 255, 0.75) inset;
+  -moz-box-shadow: 2px 1px 42px 39px rgba(255, 255, 255, 0.75) inset;
+  background: url("https://images.shiksha.com/mediadata/images/1488259418phpfB3vsL.jpeg")
+    no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image_gallery_text {
+  margin-left: 160px;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+  padding-top: 40px;
+}
+
+.header {
+  margin: 0.25rem 0;
+  font-size: 2.2rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  color: rgb(7, 77, 243);
+  text-shadow: 2px 3px 2px #fbf8f8, 4px 4px 0 #585555;
+  padding-bottom: 30px;
+}
+
+.drop-in {
+  animation: drop-in 2s ease 200ms backwards;
+  border: 0;
+  color: #fa5001;
+  text-shadow: 2px 1px 2px #faf9f4, 4px 2px 0 #08c4e6;
+  float: left;
+}
+
+.drop-in-2 {
+  animation: drop-in 2s ease 500ms backwards;
+  text-align: left;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 160px;
+}
+
+@keyframes drop-in {
+  from {
+    opacity: 0;
+    transform: translatex(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .image_gallery {
+    align-items: center;
+    background: url("https://images.shiksha.com/mediadata/images/1488259418phpfB3vsL.jpeg")
+      no-repeat;
+    background-size: 100%;
+  }
+  .image_gallery_text {
+    margin-left: 0px;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    display: inline;
+  }
+}
+@media only screen and (max-width: 832px) {
+  .image_gallery {
+    align-items: center;
+    background: url("https://images.shiksha.com/mediadata/images/1488259418phpfB3vsL.jpeg")
+      no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    min-height: 0px;
+    display: flex;
+    padding: 6px;
+    flex-direction: column;
+  }
+  .image_gallery_text {
+    margin-left: 0px;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    display: inline;
+    margin-top: -36px;
+  }
+  .drop-in {
+    animation: drop-in 2s ease 200ms backwards;
+    border: 0;
+    font-size: 20px;
+    margin-top: 6px;
+    color: #fa5001;
+    text-shadow: 2px 1px 2px #faf9f4, 4px 2px 0 #08c4e6;
+  }
+  .drop-in-2 {
+    animation: drop-in 2s ease 500ms backwards;
+    text-align: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
