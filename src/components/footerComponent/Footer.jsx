@@ -44,19 +44,19 @@ const Footer = () => {
           <p className="footer-company-about">Follow us on</p>
 
           <div className="footer-icons">
-            <a href="#">
+            <a style={{ color: "#00acee" }} href="#">
               <FaTwitter />
             </a>
-            <a href="#">
+            <a style={{ color: "#4267B2" }} href="#">
               <FaFacebook />
             </a>
-            <a href="#">
+            <a style={{ color: "#bc2a8d" }} href="#">
               <FaInstagram />
             </a>
-            <a href="#">
+            <a style={{ color: "#c4302b" }} href="#">
               <FaYoutube />
             </a>
-            <a href="#">
+            <a style={{ color: "#0077b5" }} href="#">
               <FaLinkedin />
             </a>
           </div>

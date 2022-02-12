@@ -27,7 +27,7 @@ footer {
 }
 
 .footer-distributed {
-  background-color: #2c292f;
+  background-color: #020a22;
   box-sizing: border-box;
   width: 100%;
   text-align: left;
@@ -69,7 +69,7 @@ footer {
 
 .footer-distributed .footer-right {
   width: 36%;
-  margin-left: 20px;
+  margin-left: 10px;
   text-align: center;
 }
 
@@ -104,7 +104,7 @@ footer {
   cursor: pointer;
   background-color: #33383b;
   border-radius: 2px;
-  font-size: 20px;
+  font-size: 30px;
   color: #ffffff;
   text-align: center;
   line-height: 35px;
@@ -112,7 +112,10 @@ footer {
   margin-right: 8px;
   margin-bottom: 5px;
 }
-
+.footer-distributed .footer-icons a:hover {
+  background-color: white;
+  transition: 600ms ease-out;
+}
 @media (max-width: 880px) {
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,

@@ -3,15 +3,17 @@ import "./App.css";
 import Footer from "./components/footerComponent/Footer";
 import Topic from "./components/ptuTopicComponent/Topic";
 import AboutPtu from "./components/aboutComponent/AboutPtu";
-import StudentCount from "./components/studentCount/count";
+import StudentCount from "./components/student_Count/count";
+import CampusLifeOne from "./components/campusLife/CampusLife";
 
 function App() {
   return (
     <div className="App">
       {/* <Topic /> */}
-      {/* <Footer /> */}
       {/* <AboutPtu /> */}
-      <StudentCount />
+      {/* <StudentCount /> */}
+      <CampusLifeOne />
+      {/* <Footer /> */}
     </div>
   );
 }
