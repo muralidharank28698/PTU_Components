@@ -9,10 +9,10 @@ import CampusLifeOne from "./components/campusLife/CampusLife";
 function App() {
   return (
     <div className="App">
-      {/* <Topic /> */}
+      <Topic />
       {/* <AboutPtu /> */}
       {/* <StudentCount /> */}
-      <CampusLifeOne />
+      {/* <CampusLifeOne /> */}
       {/* <Footer /> */}
     </div>
   );

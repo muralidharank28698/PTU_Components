@@ -27,7 +27,8 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  color: rgb(7, 77, 243);
+  /* color: rgb(7, 77, 243); */
+  color: rgb(14, 243, 26);
   text-shadow: 2px 3px 2px #fbf8f8, 4px 4px 0 #585555;
   padding-bottom: 30px;
 }
